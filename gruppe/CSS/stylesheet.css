@@ -1,0 +1,310 @@
+* {
+  font-family: futura, arial, sans-serif;
+  text-decoration: none;
+}
+
+h2 {
+  color: white;
+  font-size: 100px;
+  font-family: 'Futura', arial, sans-serif;
+  font-weight: bold;
+  letter-spacing: 15;
+}
+
+img {
+  width: 100%;
+
+}
+
+.articletext p{
+  margin-right: 20px;
+
+}
+
+.thumbnails img:hover {
+  -o-transition: all 0.6s;
+-moz-transition: all 0.6s;
+-webkit-transition: all 0.6s;
+-moz-transform: scale(1.1);
+-o-transform: scale(1.1);
+-webkit-transform: scale(1.1);
+}
+
+.thumb1 {
+  border: 0px black solid;
+  overflow:hidden;
+}
+
+.thumb2 {
+  border: 0px black solid;
+  overflow:hidden;
+}
+
+.thumb3 {
+  border: 0px black solid;
+  overflow:hidden;
+}
+
+.thumb4 {
+  border: 0px black solid;
+  overflow:hidden;
+}
+
+.darkened{
+  width: 1200px;
+  background-color: black;
+  opacity: 0.5;
+}
+
+.hauptbild{
+  position: absolute;
+  width: 1200px;
+  height: 300px;
+  border: 0px white solid;
+  overflow:hidden;
+}
+
+.thumbnail{
+  display: inline-block;
+  width: 190px;
+}
+
+.block{
+  display: block;
+  border: 0px black solid;
+  width: 390px;
+  overflow: hidden;
+
+}
+
+.thumbnails {
+  margin-top: 20px;
+}
+
+
+.inline{
+  display: inline-block;
+}
+
+.articletext {
+  width: 802px;
+  text-align: justify;
+  border: 0px black solid;
+}
+
+.title {
+  width: 802px;
+  border: 0px black solid;
+}
+
+.article {
+  border: 0px black solid;
+  width: 802px;
+}
+
+.article p {
+  font-size: 16px;
+}
+
+.article h1 {
+  font-size: 40px;
+  font-weight: bold;
+}
+
+.next {
+  display: inline-block;
+  vertical-align: top;
+}
+
+
+figure {
+display: table-cell;
+padding: 0 4px;
+text-align: center;
+}
+
+.readmore {
+  border: 0px black solid;
+  width: 300px;
+  margin-left: 810px;
+}
+
+.readmore p {
+  font-size: 50px;
+}
+
+a {
+  color: black;
+  font-size: 20px;
+}
+
+a:hover {
+  color: darkgrey;
+}
+
+body {
+  font-family: futura;
+  text-decoration: none;
+
+}
+.wrapper {
+  margin-top: 50px;
+  max-width: 940px
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.title {font-size: 80px;
+        text-align: justify;;
+}
+
+.img-wall {
+  margin-top: 20px;
+  width: 100%;
+  border: 0px black solid;
+}
+
+.img-box {width: 300px;
+  height: 300px;
+  display: inline-block;
+  border: 0px black solid;
+}
+
+.centering {
+  margin-right: auto;
+  margin-left: auto;
+  width: 910px;
+  height: 310px;
+}
+
+#bild1 {
+  background: url(../images/streetart.jpg) no-repeat center center;
+  background-size: cover;
+}
+
+#bild2{
+    background: url(../images/streetfood.jpg) no-repeat center center;
+    background-size: cover;
+}
+
+
+#bild3{
+  background: url(../images/streetstyle.jpg) no-repeat center center;
+  background-size: cover;
+}
+
+.text-wall {
+  margin-left: auto;
+  margin-right: auto;
+  width:910px;
+  height:310px;
+  display: inline-block;
+}
+
+.text-box1 {
+  margin-left: auto;
+  margin-right: auto;
+  width: 910px;
+  height:310px
+
+}
+
+.backbutton {
+  width: 300px;
+  border: 0px black solid;
+}
+
+.button1 {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.backphoto img {
+  width: 40px;
+}
+
+.title {
+  text-align: center;
+  border: 0px black solid;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.categories {
+  margin-top: 80px;
+  border: 0px black solid;
+  background-color: black;
+  opacity: 0.4;
+
+
+}
+
+.categories a {
+    font-size: 80px;
+    color: white;
+}
+
+body {
+  font-family: 'Lucida Grande', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  padding: 20px 50px 150px;
+  font-size: 13px;
+  text-align: center;
+  background: #E3CAA1;
+}
+
+ul {
+  text-align: left;
+  display: inline;
+  margin: 0;
+  padding: 15px 4px 17px 0;
+  list-style: none;
+  -webkit-box-shadow: 0 0 5px rgba(0, 0, 0, 0.15);
+  -moz-box-shadow: 0 0 5px rgba(0, 0, 0, 0.15);
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.15);
+}
+ul li {
+  font: bold 12px/18px sans-serif;
+  display: inline-block;
+  margin-right: -4px;
+  position: relative;
+  padding: 15px 20px;
+  background: #ffffff;
+  cursor: pointer;
+  -webkit-transition: all 0.2s;
+  -moz-transition: all 0.2s;
+  -ms-transition: all 0.2s;
+  -o-transition: all 0.2s;
+  transition: all 0.2s;
+}
+ul li:hover {
+  background: #ffffff;
+  color: #fffff;
+}
+ul li ul {
+  padding: 0;
+  position: absolute;
+  top: 48px;
+  left: 0;
+  width: 150px;
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  box-shadow: none;
+  display: none;
+  opacity: 0;
+  visibility: hidden;
+  -webkit-transiton: opacity 0.2s;
+  -moz-transition: opacity 0.2s;
+  -ms-transition: opacity 0.2s;
+  -o-transition: opacity 0.2s;
+  -transition: opacity 0.2s;
+}
+ul li ul li {
+  background: #ffffff;
+  display: block;
+  color: #ffffff;
+  text-shadow: 0 -1px 0 #000;
+}
+ul li ul li:hover { background: #666; }
+ul li:hover ul {
+  display: block;
+  opacity: 1;
